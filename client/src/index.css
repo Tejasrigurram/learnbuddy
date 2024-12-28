@@ -1,0 +1,61 @@
+/* General styling for the app */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* App Bar */
+.MuiAppBar-root {
+  background-color: #1976d2;
+}
+
+/* Typography - H4 headings */
+h4 {
+  color: #1976d2;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Page Container */
+.MuiContainer-root {
+  padding: 20px;
+}
+
+/* Paper component */
+.MuiPaper-root {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.MuiButton-root {
+  margin-top: 20px;
+}
+
+/* Input fields */
+.MuiTextField-root {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .MuiGrid-item {
+    padding: 10px;
+  }
+}
+
+/* Navbar Styles */
+.MuiButton-root.MuiLink-root {
+  color: white !important;
+  text-transform: none;
+}
+
+/* Styling for file input (OCR page) */
+input[type="file"] {
+  margin-top: 20px;
+}
